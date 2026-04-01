@@ -28,7 +28,7 @@ class ApplyCareer extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Welcome to Aploanwala',
+            subject: 'Welcome to Aploannwala',
         );
     }
 

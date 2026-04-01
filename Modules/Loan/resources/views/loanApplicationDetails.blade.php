@@ -342,7 +342,7 @@
             }).then((willDelete) => {
                 if (willDelete) {
                     $.ajax({
-                        url: 'https://manage.aploanwala.com/loanagent/application/delete-remark',
+                        url: 'https://manage.aploannwala.com/loanagent/application/delete-remark',
                         type: 'POST',
                         data:  JSON.stringify({id: remarks_id}),
                         contentType: "application/json",

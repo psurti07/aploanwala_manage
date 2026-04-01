@@ -40,7 +40,7 @@
     <script>
         function openAiSensySettingsModal(id){
             $.ajax({
-            url: `https://manage.aploanwala.com/aisensy-settings/edit/${id}`,
+            url: `https://manage.aploannwala.com/aisensy-settings/edit/${id}`,
             type: 'GET',
             contentType: "application/json",
             headers: {

@@ -68,7 +68,7 @@
         
         function openModal(){
             $.ajax({
-                url: "https://manage.aploanwala.com/sms/send-test-sms",
+                url: "https://manage.aploannwala.com/sms/send-test-sms",
                 type: 'GET',
                 contentType: "application/json",
                 headers: {

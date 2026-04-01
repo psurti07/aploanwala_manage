@@ -40,7 +40,7 @@
     <script>
         function openinteraktSettingsModal(id){
             $.ajax({
-            url: `https://manage.aploanwala.com/interakt-settings/edit/${id}`,
+            url: `https://manage.aploannwala.com/interakt-settings/edit/${id}`,
             type: 'GET',
             contentType: "application/json",
             headers: {
