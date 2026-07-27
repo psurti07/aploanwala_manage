@@ -414,7 +414,7 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://aploannwala.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png"
+                                                                                            <img src="https://aploannwala.com/public/front/images/logo/logo.png"
                                                                                                 alt="aploannwala"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -460,9 +460,9 @@
                                                                     role="presentation"
                                                                     >
                                                                     <tr>
-                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid green;
+                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #2b124c;
                                                                             border-radius: 12px;
-                                                                            background-color: #E9F2FB;">
+                                                                            background-color: #f9f4ea;">
                                                                             @yield('content')
                                                                         </td>
                                                                     </tr>
@@ -583,8 +583,8 @@
                                                                                                 Mobile:
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="tel:09429214352">
-                                                                                                +91-94292-14352
+                                                                                                    href="tel:09271759598">
+                                                                                                +91-92717-59598
                                                                                                 </a>
                                                                                                 | Email:
                                                                                                 <a href="mailto:info@aploannwala.com"

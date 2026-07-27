@@ -62,7 +62,7 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://aploannwala.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://aploannwala.com/front/images/logo/logo.png"
+                                                                                            <img src="https://aploannwala.com/public/front/images/logo/logo.png"
                                                                                                 alt="aploannwala"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -111,7 +111,7 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td align="left"
-                                                                                            style="padding: 20px; margin: 0; line-height: 1.5rem;background-color: #E9F2FB; border-radius:12px;color:#000;font-size:16px">
+                                                                                            style="padding: 20px; margin: 0; line-height: 1.5rem;background-color: #f9f4ea; border-radius:12px;color:#000;font-size:16px">
                                                                                             <p style="font-size:15px"><strong>Dear {{ $fullname }},</strong></p>
                                                                                             <p style="font-size:15px">We wanted to inform you that your account password has been successfully changed.</p>
                                                                                             <p style="font-size:15px">
@@ -261,7 +261,7 @@
                                                                                                 Mobile:
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="tel:09429214352">
+                                                                                                    href="tel:09271759598">
                                                                                                 {{ str_ireplace(' ','-',env('COMPANY_MOBILE')) }}
                                                                                                 </a>
                                                                                                 | Email:
