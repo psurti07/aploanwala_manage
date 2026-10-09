@@ -28,10 +28,10 @@ Route::group([
     Route::match(['get','post'],'/loan-agent/process-steps',[StatisticsController::class,'laProcessSteps'])->name('loan.agent.process.steps');
     
     Route::get('/loan-agent',[StatisticsController::class,'loanAgent'])->name('loan.agent');
-    Route::get('/self-apply',[StatisticsController::class,'selfApply'])->name('self.apply');
+    // Route::get('/self-apply',[StatisticsController::class,'selfApply'])->name('self.apply');
     
     Route::match(['get','post'],'/loan-agent/staff-statistics',[StatisticsController::class,'staffStatistics'])->name('loan.agent.staff.stats');
-    Route::match(['get','post'],'/self-apply/staff-statistics',[StatisticsController::class,'saStaffStatistics'])->name('self.apply.staff.stats');
+    // Route::match(['get','post'],'/self-apply/staff-statistics',[StatisticsController::class,'saStaffStatistics'])->name('self.apply.staff.stats');
     
     /* referral customers list */
     Route::get('referral-customers',[StatisticsController::class, 'referralCustomers'])->name('referral.customers');
