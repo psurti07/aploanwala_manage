@@ -266,7 +266,8 @@
                                 <span class="">Failed Payment Page</span>
                             </a>
                             <ul class="sidebar-submenu">
-                                <li><a href="{{ route('manage.offers', ['type' => 'Star_Offer']) }}">Star Offer</a></li>
+                                <li><a href="{{ route('manage.offers', ['type' => 'Star_Offer']) }}">Star Offer</a>
+                                </li>
                                 <li><a href="{{ route('manage.offers', ['type' => 'Elite_Offer']) }}">Elite Offer</a>
                                 </li>
                             </ul>
@@ -281,16 +282,20 @@
                                 <li><a href="{{ route('manage.offers', ['type' => 'Prime_Offer']) }}">Prime Offer</a>
                                 </li>
                                 <li><a href="{{ route('manage.offers', ['type' => 'Big_Offer']) }}">Big Offer</a></li>
-                                <li><a href="{{ route('manage.offers', ['type' => 'Mega_Offer']) }}">Mega Offer</a></li>
-                                <li><a href="{{ route('manage.offers', ['type' => 'Premium_Offer']) }}">Premium Offer</a>
+                                <li><a href="{{ route('manage.offers', ['type' => 'Mega_Offer']) }}">Mega Offer</a>
+                                </li>
+                                <li><a href="{{ route('manage.offers', ['type' => 'Premium_Offer']) }}">Premium
+                                        Offer</a>
                                 </li>
                                 <li><a href="{{ route('manage.offers', ['type' => 'Great_Offer']) }}">Great Offer</a>
                                 </li>
-                                <li><a href="{{ route('manage.offers', ['type' => 'Big_Benefit_Offer']) }}">Big Benefit
+                                <li><a href="{{ route('manage.offers', ['type' => 'Big_Benefit_Offer']) }}">Big
+                                        Benefit
                                         Offer</a></li>
                                 <li><a href="{{ route('manage.offers', ['type' => 'Great_Deal_Offer']) }}">Great Deal
                                         Offer</a></li>
-                                <li><a href="{{ route('manage.offers', ['type' => 'Ultra_Saver_Offer']) }}">Ultra Saver
+                                <li><a href="{{ route('manage.offers', ['type' => 'Ultra_Saver_Offer']) }}">Ultra
+                                        Saver
                                         Offer</a></li>
                             </ul>
                         </li>
@@ -515,7 +520,8 @@
                                     <span class="">Ads Content</span>
                                 </a>
                                 <ul class="sidebar-submenu">
-                                    <li><a href="{{ route('manage.advertisement', ['type' => 'text']) }}">Text</a></li>
+                                    <li><a href="{{ route('manage.advertisement', ['type' => 'text']) }}">Text</a>
+                                    </li>
                                     <li><a href="{{ route('manage.advertisement', ['type' => 'image']) }}">Images</a>
                                     </li>
                                 </ul>
@@ -581,7 +587,8 @@
                                 </a>
                                 <ul class="sidebar-submenu">
                                     {{-- <li><a href="{{ route('manage.dnd.list',['type'=>'selfapply']) }}">Self Apply DND List</a></li> --}}
-                                    <li><a href="{{ route('manage.dnd.list', ['type' => 'loanagent']) }}">Loan Agent DND
+                                    <li><a href="{{ route('manage.dnd.list', ['type' => 'loanagent']) }}">Loan Agent
+                                            DND
                                             List</a></li>
                                 </ul>
                             </li>
@@ -613,13 +620,16 @@
                             </div>
                         </li>
                         @if (in_array(Auth::user()->role, [0, 1, 3, 6]))
-                            <li class="sidebar-list">
-                                <i class="fa fa-thumb-tack"></i>
-                                <a class="sidebar-link sidebar-title link-nav" href="{{ route('manage.remarks') }}">
-                                    <i data-feather="alert-circle"></i>
-                                    <span class="">File Remarks</span>
-                                </a>
-                            </li>
+                            @if (in_array(Auth::user()->role, [6]))
+                                <li class="sidebar-list">
+                                    <i class="fa fa-thumb-tack"></i>
+                                    <a class="sidebar-link sidebar-title link-nav"
+                                        href="{{ route('manage.remarks') }}">
+                                        <i data-feather="alert-circle"></i>
+                                        <span class="">File Remarks</span>
+                                    </a>
+                                </li>
+                            @endif
                         @endif
                         @if (!in_array(Auth::user()->role, [1]))
                             @if (in_array(Auth::user()->role, [6]))
